@@ -1,0 +1,14 @@
+{
+  "station_name": "Cambell Frequency",
+  "timezone": "Europe/London",
+  "schedule_version": 1,
+  "tracks": [
+    {
+      "youtube_id": "M7lc1UVf-VE",
+      "title": "Example Track",
+      "artist": "Replace Me",
+      "starts_at": "2026-10-12T18:00:00Z",
+      "duration_seconds": 180
+    }
+  ]
+}

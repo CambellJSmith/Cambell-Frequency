@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cambell Frequency</title>
+  <link rel="stylesheet" href="css/station.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar"><div><p class="eyebrow">LIVE STATION</p><h1 id="station_name">Cambell Frequency</h1></div><div id="live_badge" class="badge">OFF AIR</div></header>
+    <section class="grid">
+      <div class="panel player_panel">
+        <div class="video_wrap"><div id="player"></div></div>
+        <div class="player_controls"><button id="join_button" class="primary">Join Live</button><button id="mute_button" class="secondary" type="button" aria-pressed="false" disabled>Mute</button></div>
+        <div class="now"><p class="eyebrow">NOW PLAYING</p><h2 id="track_title">Loading schedule…</h2><p id="track_meta">—</p><div class="progress"><div id="progress_fill"></div></div><div class="times"><span id="elapsed">00:00</span><span id="remaining">00:00</span></div></div>
+      </div>
+      <aside class="panel schedule_panel"><p class="eyebrow">NEXT 72 HOURS</p><div id="up_next" class="queue"></div></aside>
+    </section>
+    <p id="status" class="status">Loading station schedule…</p>
+  </main>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="js/station.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "schema_version": 3,
+  "station_name": "Cambell Frequency",
+  "timezone": "Europe/London",
+  "updated_at": "2026-10-07T08:10:00Z",
+  "publications": [
+    {
+      "id": "20261007T081000Z_seed",
+      "path": "schedules/2026/10/20261007T081000Z_seed.json",
+      "published_at": "2026-10-07T08:10:00Z",
+      "starts_at": "2026-10-12T18:00:00Z",
+      "ends_at": "2026-10-12T18:03:00Z",
+      "track_count": 1,
+      "announcement_count": 0,
+      "suppression_count": 0
+    }
+  ]
+}
